@@ -1,0 +1,109 @@
+.navbar{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    transition: background-color 0.3s ease-in-out;
+    background-color:rgb(0, 0, 0);
+    z-index: 100;
+}
+.logo   {
+    width: 15.4%;
+    height:5%;
+    padding-right: 1.4%;
+    margin-top: 25px;
+    padding-left:1.2%;
+}
+
+.links{
+    display:flex;
+}
+.links a{
+    font-size:1.5rem;
+    margin-top: 9px;
+    padding:5px;
+    color:white;    
+    text-decoration: solid;
+    font-family: sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.links a:hover{
+    color:rgb(189, 166, 211);
+}
+.scrolled {
+    background-color: rgb(0, 0, 0); 
+}
+
+.links{
+    color:white;
+    padding: 2% 0% 1% 0%;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+a{
+    color: white;
+    margin-left:25px;
+    margin-right: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 140%;
+}
+.links a:hover{
+    color:rgb(189, 166, 211);
+}
+
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 150px; 
+    background-color:#323232;
+    color: white;
+    font-family: "Jura";
+}
+h1{
+    font-size: 3rem;
+    margin-left: 1%;
+}
+.question{  
+    border: dotted white 1px;
+    padding: 2%;
+    font-size: 2rem;
+    margin: 1%;
+}
+button { 
+    padding: 1%; 
+    background-color: black; 
+    color: #F5BF03; 
+    border: dotted #F5BF03 2px;
+    font-family: "Jura"; 
+    cursor: pointer;
+    margin-left: 1%;
+    font-size: 1.5rem;
+ }
+ button:hover{
+    color: rgb(189, 166, 211);
+    border-color: rgb(189, 166, 211);
+ }
+ #results { 
+    margin-top: 20px; 
+    margin-left: 1%;
+    padding: 1%; 
+    border: 1px dotted #ddd; 
+    font-size: 2rem;
+    height: 50px;
+}
+label{
+    cursor:pointer;
+    border:dotted white 1px;
+    padding: 0.5rem 1rem 0.5rem 0.6rem;
+}
+label:hover{
+    color:rgb(189, 166, 211);
+    border-color: rgb(189, 166, 211);
+}
+input[type="radio"] {
+accent-color: #ff9c9c; 
+}

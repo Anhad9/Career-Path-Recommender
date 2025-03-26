@@ -1,0 +1,210 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+    }
+    .navbar{
+        display: flex;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color:#000000;
+        transition: background-color 0.3s ease-in-out;
+        padding-left: 20px;
+        background-color:rgba(0, 0, 0, 0.913);
+        z-index: 100;
+    }
+
+
+    .logo   {
+        width: 17%;
+        height:5%;
+        padding-right: 1.4%;
+        margin-top: 25px;
+    }
+
+    .links{
+        display:flex;
+    }
+    .links a{
+        font-size:1.5rem;
+        margin-top: 9px;
+        padding:5px;
+        color:white;    
+        text-decoration: solid;
+        font-family: sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .links a:hover{
+        color:rgb(189, 166, 211);
+    }
+    .scrolled {
+        background-color: rgba(0, 0, 0, 0.913); /* Change to any color */
+    }
+    .links{
+        color:white;
+        padding: 2% 0% 1% 0%;
+        margin-bottom: 20px;
+        cursor:pointer;
+    }
+    a{
+        color: white;
+        margin-left:25px;
+        margin-right: 25px;
+        font-family: sans-serif;
+        text-decoration: none;
+        font-size: 140%;
+    }
+
+    :root {
+        --primary-color: #09161f;
+        --secondary-color: #929d2a;
+        --dark-color: #2c3e50;
+        --light-color: #ecf0f1;
+        --gradient-1: linear-gradient(135deg, #66685d 0%, #080603 100%);
+        --gradient-2: linear-gradient(to right, #080603, #66685d);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color:  #2c2b2b;
+        color: var(--dark-color);
+    }
+
+    .about-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .about-header {
+        background: var(--gradient-1);
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        margin-bottom: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .about-header::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: rgba(255,255,255,0.05);
+        transform: rotate(-45deg);
+    }
+
+    .about-header h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .about-header p {
+        font-size: 1.2rem;
+        max-width: 800px;
+        margin: 0 auto;
+        opacity: 0.9;
+    }
+
+    .mission-section {
+        display: flex;
+        align-items: center;
+        background:#ADA68E;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .mission-image {
+        flex: 1;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/Images/thinking5.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 350px;
+    }
+
+    .mission-content {
+        flex: 1;
+        padding: 40px;
+        background:#ADA68E;
+        font-size:19px;
+    }
+
+    .mission-content h2 {
+        color: var(--primary-color);
+        margin-bottom: 20px;
+        font-size: 2.4rem;
+    }
+
+    .core-values {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .value-card {
+        flex: 1;
+        background: white;
+        padding: 30px;
+        margin: 0 15px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .value-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .value-card i {
+        font-size: 3rem;
+        color: var(--secondary-color);
+        margin-bottom: 20px;
+    }
+
+    .assessment-process {
+        background: var(--gradient-2);
+        color: white;
+        padding: 50px 20px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .process-steps {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .process-step {
+        flex: 1;
+        background: rgba(255,255,255,0.2);
+        padding: 25px;
+        margin: 0 10px;
+        border-radius: 10px;
+        transition: background 0.3s ease;
+    }
+
+    .process-step:hover {
+        background: rgba(255,255,255,0.3);
+    }

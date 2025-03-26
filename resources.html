@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+    <link href="resources.css" rel="stylesheet">
+</head>
+<body>
+    <script src="resources.js"></script>
+
+    <nav class="navbar">
+        <img class="logo"src="Images/logo1.png">
+        <div class="links">
+            <a href="home.html"">Home</a>
+            <a href="taketest.html">Take Test</a>
+            <a href="resources.html">Careers</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left">
+            <span class="spec"><p>GENERAL</p></span>
+            <div class="careers">
+                <p onclick="filterContent1()">High paying careers</p>
+                <p onclick="filterContent2()"">Attainable careers</p>
+                <p onclick="filterContent3()">Part-time careers</p>
+                <p onclick="filterContent4()">Careers that don't require a degree</p>
+            </div>
+            <hr>
+        </div>
+        <div class="right">
+            <form class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search..." onkeyup="filterContent()">
+            </form>
+            <div class="jobs high-paying no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Actor';">
+                <img src="Images/actor.png">
+                <p class="text" style="display:inline-block;">Actor</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Administrative_assistant#:~:text=Most%20administrative%20assistant%20duties%20revolve,as%20greeting%20clients%20and%20customers.';">
+                <img src="Images/person.png">
+                <p class="text" style="display:inline-block;">Administrative Assistant</p>
+            </div>
+            <div class="jobs high-paying attainable-careers" onclick="window.location.href='https://www.careers360.com/careers/agricultural-inspector';">
+                <img src="Images/financing.png">
+                <p class="text" style="display:inline-block;">Agricultural Inspector</p>
+            </div>
+            <div class="jobs attainable-careers no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Farmworker';">
+                <img src="Images/worker.png">
+                <p class="text" style="display:inline-block;">Agricultural Worker</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Breeder_(animal)';">
+                <img src="Images/chicken.png">
+                <p class="text" style="display:inline-block;">Animal Breeder</p>
+            </div>
+            <div class="jobs part-time-careers no-degree-careers" onclick="window.location.href='https://www.careerexplorer.com/careers/animal-caretaker/';">
+                <img src="Images/caretaker.png">
+                <p class="text" style="display:inline-block;">Animal Caretaker</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Athlete';">
+                <img src="Images/runner.png">
+                <p class="text" style="display:inline-block;">Athlete</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Auto_body_technician';">
+                <img src="Images/automobile.png">
+                <p class="text" style="display:inline-block;">Auto Body Repairer</p>
+            </div>
+            <div class="jobs attainable-careers no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Baker';">
+                <img src="Images/baker.png">
+                <p class="text" style="display:inline-block;">Baker</p>
+            </div>
+            <div class="jobs no-degree-careers attainable-careers part-time-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Bookkeeping';">
+                <img src="Images/accountant.png">
+                <p class="text" style="display:inline-block;">Bookkeeper</p>
+            </div>
+            <div class="jobs no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Cashier';">
+                <img src="Images/cashier.png">
+                <p class="text" style="display:inline-block;">Cashier</p>
+            </div>
+            <div class="jobs high-paying no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Choreography';">
+                <img src="Images/dancing.png">
+                <p class="text" style="display:inline-block;">Choreographer</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Chef';">
+                <img src="Images/chef.png">
+                <p class="text" style="display:inline-block;">Culinary Chef</p>
+            </div>
+            <div class="jobs high-paying attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Customs_broker';">
+                <img src="Images/brokerage.png">
+                <p class="text" style="display:inline-block;">Customs Broker</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://www.careerexplorer.com/careers/dairy-scientist/';">
+                <img src="Images/dairy-products.png"> 
+                <p class="text" style="display:inline-block;">Dairy Scientist</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Data_science';">
+                <img src="Images/data-scientist.png"> 
+                <p class="text" style="display:inline-block;">Data Scientist</p>
+            </div>
+            <div class="jobs high-paying attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Dentist';">
+                <img src="Images/dentist.png"> 
+                <p class="text" style="display:inline-block;">Dentist</p>
+            </div>
+            <div class="jobs">
+                <img src="Images/private-detective.png" onclick="window.location.href='https://en.wikipedia.org/wiki/Detective';"> 
+                <p class="text" style="display:inline-block;">Detective</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Diplomat';">
+                <img src="Images/diplomat.png"> 
+                <p class="text" style="display:inline-block;">Diplomat</p>
+            </div>
+            <div class="jobs high-paying attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Physician';">
+                <img src="Images/doctor.png"> 
+                <p class="text" style="display:inline-block;">Doctor</p>
+            </div>
+            <div class="jobs part-time-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Ecology';">
+                <img src="Images/people.png"> 
+                <p class="text" style="display:inline-block;">Ecologist</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Economist';">
+                <img src="Images/investor.png"> 
+                <p class="text" style="display:inline-block;">Economist</p>
+            </div>
+            <div class="jobs attainable-careers part-time-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Editing';">
+                <img src="Images/content.png"> 
+                <p class="text" style="display:inline-block;">Editor</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Editing';">
+                <img src="Images/power.png"> 
+                <p class="text" style="display:inline-block;">Electrical Engineer</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Electronic_engineering';">
+                <img src="Images/data-scientist.png"> 
+                <p class="text" style="display:inline-block;">Electronics Engineer</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/White_hat_(computer_security)';">
+                <img src="Images/hacker.png"> 
+                <p class="text" style="display:inline-block;">Ethical Hacker</p>
+            </div>
+            <div class="jobs part-time-careers no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Event_management';">
+                <img src="Images/event-planner.png"> 
+                <p class="text" style="display:inline-block;">Event Planner</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Fashion_design';">
+                <img src="Images/sketch.png"> 
+                <p class="text" style="display:inline-block;">Fashion Designer</p>
+            </div>
+            <div class="jobs part-time-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Writer#Fictional_writers';">
+                <img src="Images/ghost-face.png"> 
+                <p class="text" style="display:inline-block;">Fiction Writer</p>
+            </div>
+            <div class="jobs">
+                <img src="Images/firetruck.png" onclick="window.location.href='https://en.wikipedia.org/wiki/Firefighter';"> 
+                <p class="text" style="display:inline-block;">Firefighter</p>
+            </div>
+            <div class="jobs no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Personal_trainer';">
+                <img src="Images/male.png"> 
+                <p class="text" style="display:inline-block;">Fitness Trainer</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Food_critic';">
+                <img src="Images/restaurant.png"> 
+                <p class="text" style="display:inline-block;">Food Critic</p>
+            </div>
+            <div class="jobs">
+                <img src="Images/customer.png" onclick="window.location.href='https://en.wikipedia.org/wiki/Accountant';"> 
+                <p class="text" style="display:inline-block;">Government Accountant</p>
+            </div>
+            <div class="jobs">
+                <img src="Images/historian.png" onclick="window.location.href='https://en.wikipedia.org/wiki/Historian';"> 
+                <p class="text" style="display:inline-block;">Historian</p>
+            </div>
+            <div class="jobs attainable-careers no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Housekeeper';">
+                <img src="Images/maid.png"> 
+                <p class="text" style="display:inline-block;">Housekeeper</p>
+            </div>
+            <div class="jobs no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Illustrator';">
+                <img src="Images/graphic-tablet.png"> 
+                <p class="text" style="display:inline-block;">Illustrator</p>
+            </div>
+            <div class="jobs high-paying no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Influencer';">
+                <img src="Images/investor.png"> 
+                <p class="text" style="display:inline-block;">Influencer</p>
+            </div>
+            <div class="jobs attainable-careers no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Cleaner';">
+                <img src="Images/janitor.png"> 
+                <p class="text" style="display:inline-block;">Janitor</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Judge';">
+                <img src="Images/judge.png"> 
+                <p class="text" style="display:inline-block;">Judge</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Lawyer';">
+                <img src="Images/lawyer.png"> 
+                <p class="text" style="display:inline-block;">Lawyer</p>
+            </div>
+            <div class="jobs part-time-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Linguistics';">
+                <img src="Images/languages.png"> 
+                <p class="text" style="display:inline-block;">Linguist</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Lyricist';">
+                <img src="Images/song.png"> 
+                <p class="text" style="display:inline-block;">Lyricist</p>
+            </div>
+            <div class="jobs no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Magic_(illusion)';">
+                <img src="Images/wizard.png"> 
+                <p class="text" style="display:inline-block;">Magician</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Marketing_management';">
+                <img src="Images/social-media.png"> 
+                <p class="text" style="display:inline-block;">Marketing Manager</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Mechanical_engineering';">
+                <img src="Images/engineering.png"> 
+                <p class="text" style="display:inline-block;">Mechanical Engineer</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Meteorology';">
+                <img src="Images/forecaster.png"> 
+                <p class="text" style="display:inline-block;">Meteorlogist</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Microbiologist';">
+                <img src="Images/microbiology.png"> 
+                <p class="text" style="display:inline-block;">Microbiologist</p>
+            </div>
+            <div class="jobs part-time-careers no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Motivational_speaker';">
+                <img src="Images/motivational-speaker.png"> 
+                <p class="text" style="display:inline-block;">Motivational Speaker</p>
+            </div>
+            <div class="jobs part-time-careers no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Naturopathy';">
+                <img src="Images/ecosystem.png"> 
+                <p class="text" style="display:inline-block;">Naturopath</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/News_presenter';">
+                <img src="Images/news-reporter.png"> 
+                <p class="text" style="display:inline-block;">News Anchor</p>
+            </div>
+            <div class="jobs part-time-careers no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/News_presenter';">
+                <img src="Images/book.png"> 
+                <p class="text" style="display:inline-block;">Nonfiction Writer</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Nursing';">
+                <img src="Images/nurse.png"> 
+                <p class="text" style="display:inline-block;">Nurse</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Nutritionist#:~:text=A%20nutritionist%20is%20a%20person,animal%20nutrition%2C%20among%20other%20disciplines.';">
+                <img src="Images/dietitian.png"> 
+                <p class="text" style="display:inline-block;">Nutrionist</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Optician';">
+                <img src="Images/optician.png"> 
+                <p class="text" style="display:inline-block;">Optician</p>
+            </div>
+            <div class="jobs no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Painting';">
+                <img src="Images/painter.png"> 
+                <p class="text" style="display:inline-block;">Painter</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Pharmacist';">
+                <img src="Images/pharmacist.png"> 
+                <p class="text" style="display:inline-block;">Pharmacist</p>
+            </div>
+            <div class="jobs no-degree-careers part-time-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Photographer';">
+                <img src="Images/photography.png"> 
+                <p class="text" style="display:inline-block;">Photographer</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Physicist';">
+                <img src="Images/physicist.png"> 
+                <p class="text" style="display:inline-block;">Physicist</p>
+            </div>
+            <div class="jobs high-paying" onclick="window.location.href='https://en.wikipedia.org/wiki/Aircraft_pilot';">
+                <img src="Images/pilot.png"> 
+                <p class="text" style="display:inline-block;">Pilot</p>
+            </div>
+            <div class="jobs part-time-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Poet';">
+                <img src="Images/poet.png"> 
+                <p class="text" style="display:inline-block;">Poet</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Police_officer';">
+                <img src="Images/police.png"> 
+                <p class="text" style="display:inline-block;">Police Officer</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Professor';">
+                <img src="Images/class.png"> 
+                <p class="text" style="display:inline-block;">Professor</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Psychiatrist';">
+                <img src="Images/psychiatrist.png"> 
+                <p class="text" style="display:inline-block;">Psychiatrist</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Public_administration';">
+                <img src="Images/public-administration.png"> 
+                <p class="text" style="display:inline-block;">Public Administrator</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Research';">
+                <img src="Images/search.png"> 
+                <p class="text" style="display:inline-block;">Researcher</p>
+            </div>
+            <div class="jobs no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Sailor';">
+                <img src="Images/captain.png"> 
+                <p class="text" style="display:inline-block;">Sailor</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Scientist';">
+                <img src="Images/data-science-system.png"> 
+                <p class="text" style="display:inline-block;">Scientist</p>
+            </div>
+            <div class="jobs no-degree-careers part-time-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Sculpture';">
+                <img src="Images/art.png"> 
+                <p class="text" style="display:inline-block;">Sculptor</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Teacher';">
+                <img src="Images/teacher.png"> 
+                <p class="text" style="display:inline-block;">Teacher</p>
+            </div>
+            <div class="jobs part-time-careers" onclick="window.location.href='https://www.coursera.org/in/articles/what-does-a-ux-designer-do';">
+                <img src="Images/ux-design.png"> 
+                <p class="text" style="display:inline-block;">UX Designer</p>
+            </div>
+            <div class="jobs high-paying no-degree-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Voice_acting';"> 
+                <img src="Images/voiceover.png"> 
+                <p class="text" style="display:inline-block;">Voice Actor</p>
+            </div>
+            <div class="jobs attainable-careers" onclick="window.location.href='http://en.wikipedia.org/wiki/Web_developer';">
+                <img src="Images/world-wide-web.png"> 
+                <p class="text" style="display:inline-block;">Web Developer</p>
+            </div>  
+            <div class="jobs no-degree-careers attainable-careers" onclick="window.location.href='https://en.wikipedia.org/wiki/Yoga';">
+                <img src="Images/meditation.png"> 
+                <p class="text" style="display:inline-block;">Yoga Instructor</p>
+            </div>
+            <div class="jobs" onclick="window.location.href='https://en.wikipedia.org/wiki/Zoology';">
+                <img src="Images/chameleon.png"> 
+                <p class="text" style="display:inline-block;">Zoologist</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
